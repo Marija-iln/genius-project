@@ -17,8 +17,8 @@ ul {
 /*Button*/
 .button {
     color: var(--color-primary-light);
-    background-color: var(--color-brand);
-    border: 2px solid var(--color-brand);
+    background-color: var(--color-brand-light);
+    border: 2px solid var(--color-brand-light);
     border-radius: 8px;
     cursor: pointer;
 }
@@ -34,7 +34,7 @@ ul {
 }
 
 .link:hover {
-    color: var(--color-brand);
+    color: var(--color-brand-light);
 }
 
 /*Hero section*/
@@ -42,14 +42,14 @@ ul {
     color: var(--color-primary-light);
 }
 
-.hero-title accent {
-    color: var(--color-brand);
+.hero-title .accent {
+    color: var(--color-brand-light);
 }
 
 /*Advantages section*/
 .advantages-list {
     color: var(--color-primary-light);
-    background-color: var(--color-brand);
+    background-color: var(--color-brand-light);
 }
 
 .section-title .accent {
